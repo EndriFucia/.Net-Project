@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>0c8a4c34-948e-47fc-828d-cd658cdd18bf</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>E0C1BD1042FEE7DABD7640E0277C62C54AC595E69878AEE54FF6877E170DE911</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>0c8a4c34-948e-47fc-828d-cd658cdd18bf_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>0c8a4c34-948e-47fc-828d-cd658cdd18bf_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -27,28 +27,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-20T17:45:37.082</Modified>
+      <Modified>2022-11-20T21:39:14.481</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-20T17:45:35.674</Modified>
+      <Modified>2022-11-20T21:39:14.062</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp1.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp1.runtimeconfig.json">
       <PackagePath>MauiApp1.runtimeconfig.json</PackagePath>
-      <Modified>2022-11-16T10:12:22.973</Modified>
+      <Modified>2022-11-20T21:39:13.828</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp1.dll">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp1.dll">
       <PackagePath>MauiApp1.dll</PackagePath>
-      <Modified>2022-11-16T10:30:31.835</Modified>
+      <Modified>2022-11-20T21:39:12.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp1.exe</PackagePath>
-      <Modified>2022-11-16T10:30:31.882</Modified>
+      <Modified>2022-11-20T21:39:12.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\endri\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.11\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1062,9 +1062,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-07-19T16:53:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp1.deps.json">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MauiApp1.deps.json">
       <PackagePath>MauiApp1.deps.json</PackagePath>
-      <Modified>2022-11-20T17:45:36.879</Modified>
+      <Modified>2022-11-20T21:39:14.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\endri\.nuget\packages\microsoft.maui.controls.ref.win\6.0.547\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1078,239 +1078,239 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2022-10-27T15:24:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2022-11-16T10:11:23.846</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2022-11-16T10:12:20.662</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2022-11-16T10:12:20.676</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2022-11-16T10:12:20.696</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2022-11-16T10:12:20.725</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2022-11-16T10:12:20.833</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2022-11-16T10:11:23.844</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2022-11-16T10:11:23.845</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2022-11-16T10:12:20.877</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2022-11-16T10:12:21.104</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2022-11-16T10:12:21.116</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2022-11-16T10:12:21.127</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2022-11-16T10:12:21.145</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2022-11-16T10:12:21.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2022-11-16T10:12:20.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2022-11-16T10:12:20.941</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2022-11-16T10:12:20.954</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2022-11-16T10:12:20.943</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2022-11-16T10:12:20.946</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2022-11-16T10:12:20.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2022-11-16T10:12:20.923</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2022-11-16T10:12:20.936</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2022-11-16T10:12:20.926</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2022-11-16T10:12:20.929</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2022-11-16T10:12:20.884</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2022-11-16T10:12:20.887</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2022-11-16T10:12:20.890</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2022-11-16T10:12:20.893</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2022-11-16T10:12:20.899</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2022-11-16T10:12:20.902</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2022-11-16T10:12:20.905</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2022-11-16T10:12:20.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2022-11-16T10:12:20.907</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2022-11-16T10:12:20.910</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2022-11-16T10:12:20.997</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2022-11-16T10:12:21.002</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2022-11-16T10:12:21.007</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2022-11-16T10:12:21.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2022-11-16T10:12:21.032</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2022-11-16T10:12:20.975</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2022-11-16T10:12:20.978</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2022-11-16T10:12:20.981</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2022-11-16T10:12:20.985</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2022-11-16T10:12:20.993</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2022-11-16T10:12:20.957</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2022-11-16T10:12:20.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2022-11-16T10:12:20.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2022-11-16T10:12:20.967</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2022-11-16T10:12:20.972</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2022-11-16T10:12:21.037</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2022-11-16T10:12:21.043</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2022-11-16T10:12:21.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2022-11-16T10:12:21.064</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2022-11-16T10:12:21.096</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2022-11-16T10:12:20.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2022-11-16T10:12:20.931</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2022-11-16T10:12:20.944</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2022-11-16T10:12:20.964</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2022-11-16T10:12:21.011</Modified>
     </AppxPackagedFile>

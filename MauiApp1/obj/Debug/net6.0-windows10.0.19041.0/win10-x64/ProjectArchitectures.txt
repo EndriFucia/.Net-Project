@@ -1,1 +1,1 @@
-C:\Users\endri\Desktop\Thomas More\C#\.NET MAUI\MauiApp1\MauiApp1\MauiApp1.csproj;x64
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\MauiApp1.csproj;x64
