@@ -1,4 +1,7 @@
-﻿namespace MauiApp1;
+﻿using MauiApp1.Services;
+using MauiApp1.ViewModel;
+
+namespace MauiApp1;
 
 public static class MauiProgram
 {
@@ -12,7 +15,9 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
-
-		return builder.Build();
+		builder.Services.AddTransient<MainPage>();
+		builder.Services.AddSingleton<ProductsService>();
+        builder.Services.AddTransient<ProductsViewModel>();
+        return builder.Build();
 	}
 }

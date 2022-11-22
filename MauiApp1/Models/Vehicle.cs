@@ -1,12 +1,11 @@
 ﻿using System;
 using System.ComponentModel;
 
-namespace vehicle
+namespace MauiApp1.Models
 {
     #region enums
     public enum MAKE
     {
-        [Description("Audi")]
         Audi,
         BMW,
         MercedesBenz,
@@ -50,12 +49,14 @@ namespace vehicle
     public class Vehicle
     {
         #region properties
-        String _vin;
-        public String VIN { get { return _vin; } 
+        string _vin;
+        public string VIN
+        {
+            get { return _vin; }
             set
             {
                 _vin = value;
-            } 
+            }
         }
 
         MAKE _make;
@@ -78,8 +79,8 @@ namespace vehicle
             }
         }
 
-        String _model;
-        public String Model
+        string _model;
+        public string Model
         {
             get { return _model; }
             set
@@ -139,7 +140,7 @@ namespace vehicle
         }
 
         TRANSMISSION _transmission;
-        public TRANSMISSION TRANSMISSION
+        public TRANSMISSION Transmission
         {
             get { return _transmission; }
             set
@@ -147,11 +148,30 @@ namespace vehicle
                 _transmission = value;
             }
         }
-        #endregion
 
-        public Vehicle()
+        string _imgUrl;
+        public string ImageUrl
         {
-
+            get { return _imgUrl; }
+            set
+            {
+                _imgUrl = value;
+            }
+        }
+        #endregion
+        public Vehicle(string vin, MAKE make, BODY_TYPE body, string model, FUEL_TYPE fuel, DateTime registration, int milage, double engineSize, int power, TRANSMISSION transmission, string url)
+        {
+            VIN = vin;
+            Make = make;
+            BodyType = body;
+            Model = model;
+            FuelType = fuel;
+            RegistrationDate = registration;
+            Milage = milage;
+            EngineSize = engineSize;
+            Power = power;
+            Transmission = transmission;
+            ImageUrl = url;
         }
     }
 }
