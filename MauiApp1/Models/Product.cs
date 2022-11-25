@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -36,8 +38,8 @@ namespace MauiApp1.Models
             set { _price = value; }
         }
 
-        private string _image;
-        public string Image
+        private ImageSource _image;
+        public ImageSource Image
         {
             get { return _image; }
             set { _image = value; }
@@ -49,7 +51,7 @@ namespace MauiApp1.Models
             Name = name;
             Description = description;
             Price = price;
-            Image = image;
-        }   
+            Image = ImageSource.FromUri(new Uri(image));
+        }
     }
 }

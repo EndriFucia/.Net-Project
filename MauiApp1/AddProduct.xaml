@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.AddProduct"
+             Title="AddProduct">
+    <VerticalStackLayout Margin="0,70" Padding="20" Spacing="15">
+        <HorizontalStackLayout>
+            <Label Text="Name : " WidthRequest="100" VerticalOptions="Center" HorizontalOptions="Center" />
+            <Frame WidthRequest="170" HeightRequest="40" Padding="5">
+                <Entry WidthRequest="150" HeightRequest="40" CursorPosition="4"></Entry>
+            </Frame>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Description : " WidthRequest="100" VerticalOptions="Center" HorizontalOptions="Center" />
+            <Frame WidthRequest="170" HeightRequest="40" Padding="5">
+                <Entry WidthRequest="150" HeightRequest="40" CursorPosition="4"></Entry>
+            </Frame>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Price : " WidthRequest="100" VerticalOptions="Center" HorizontalOptions="Center" />
+            <Frame WidthRequest="170" HeightRequest="40" Padding="5">
+                <Entry WidthRequest="150" HeightRequest="40" CursorPosition="4"></Entry>
+            </Frame>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Image : " WidthRequest="100" VerticalOptions="Center" HorizontalOptions="Center" />
+            <Frame WidthRequest="170" HeightRequest="40" Padding="5">
+                <Entry WidthRequest="150" HeightRequest="40" CursorPosition="4"></Entry>
+            </Frame>
+        </HorizontalStackLayout>
+        <Button Text="Save" Margin="0,40"></Button>
+    </VerticalStackLayout>
+</ContentPage>

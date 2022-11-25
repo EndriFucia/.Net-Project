@@ -9,7 +9,5 @@ public partial class MainPage : ContentPage
 		
 		BindingContext = productsViewModel;
 	}
-
-
 }
 

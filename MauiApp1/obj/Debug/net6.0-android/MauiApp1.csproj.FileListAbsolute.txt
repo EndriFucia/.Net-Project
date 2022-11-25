@@ -948,6 +948,9 @@ C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-and
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\lp\147\jl\files.cache
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\lp\149\jl\files.cache
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\lp\151\jl\files.cache
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\Newtonsoft.Json.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\Microsoft.Win32.SystemEvents.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Drawing.Common.dll
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\mscorlib.dll
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Data.dll

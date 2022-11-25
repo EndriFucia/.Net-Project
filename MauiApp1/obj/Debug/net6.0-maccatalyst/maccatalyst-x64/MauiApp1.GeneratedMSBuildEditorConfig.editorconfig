@@ -10,6 +10,12 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MauiApp1
 build_property.ProjectDir = C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\
 
+[C:/Users/endri/Desktop/Thomas More/C\#/.Net-Project/MauiApp1/AddProduct.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.AddProduct.xaml
+build_metadata.AdditionalFiles.TargetPath = AddProduct.xaml
+build_metadata.AdditionalFiles.RelativePath = AddProduct.xaml
+
 [C:/Users/endri/Desktop/Thomas More/C\#/.Net-Project/MauiApp1/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.App.xaml

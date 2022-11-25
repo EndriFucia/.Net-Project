@@ -718,3 +718,6 @@ C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-win
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\audi.scale-100.jpg
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bmw.scale-100.jpg

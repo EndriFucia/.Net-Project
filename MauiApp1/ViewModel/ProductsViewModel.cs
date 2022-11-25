@@ -12,16 +12,20 @@ namespace MauiApp1.ViewModel
     public class ProductsViewModel: BaseViewModel
     {
         ProductsService productService;
-
         public ObservableCollection<Product> productList { get; } = new();
         public Command GetProductsCommand { get; }
+        public Command AddProductCommand { get; }
         public ProductsViewModel(ProductsService productService)
         {
             this.productService = productService;
+            
             GetProductsCommand = new Command(async () => await GetAllProducts());
+            AddProductCommand = new Command(AddProduct);
+
+            GetAllProducts();
         }
 
-        async Task GetAllProducts()
+        public async Task GetAllProducts()
         {
             try
             {
@@ -43,6 +47,11 @@ namespace MauiApp1.ViewModel
             {
                 await Application.Current.MainPage.DisplayAlert("Products couldn`t be retrieved!", ex.Message, "OK");
             }
+        }
+
+        public void AddProduct()
+        {
+            App.Current.MainPage.Navigation.PushAsync(new AddProduct());
         }
     }
 }
