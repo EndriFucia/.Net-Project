@@ -1,9 +1,14 @@
+using MauiApp1.Services;
+using MauiApp1.ViewModel;
+
 namespace MauiApp1;
 
 public partial class AddProduct : ContentPage
 {
-	public AddProduct()
+	public AddProduct(AddProductViewModel vm)
 	{
 		InitializeComponent();
-	}
+
+		BindingContext = vm;
+    }
 }

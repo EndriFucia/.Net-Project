@@ -2,32 +2,36 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp1.AddProduct"
-             Title="AddProduct">
-    <VerticalStackLayout Margin="0,70" Padding="20" Spacing="15">
-        <HorizontalStackLayout>
-            <Label Text="Name : " WidthRequest="100" VerticalOptions="Center" HorizontalOptions="Center" />
-            <Frame WidthRequest="170" HeightRequest="40" Padding="5">
-                <Entry WidthRequest="150" HeightRequest="40" CursorPosition="4"></Entry>
-            </Frame>
-        </HorizontalStackLayout>
-        <HorizontalStackLayout>
-            <Label Text="Description : " WidthRequest="100" VerticalOptions="Center" HorizontalOptions="Center" />
-            <Frame WidthRequest="170" HeightRequest="40" Padding="5">
-                <Entry WidthRequest="150" HeightRequest="40" CursorPosition="4"></Entry>
-            </Frame>
-        </HorizontalStackLayout>
-        <HorizontalStackLayout>
-            <Label Text="Price : " WidthRequest="100" VerticalOptions="Center" HorizontalOptions="Center" />
-            <Frame WidthRequest="170" HeightRequest="40" Padding="5">
-                <Entry WidthRequest="150" HeightRequest="40" CursorPosition="4"></Entry>
-            </Frame>
-        </HorizontalStackLayout>
-        <HorizontalStackLayout>
-            <Label Text="Image : " WidthRequest="100" VerticalOptions="Center" HorizontalOptions="Center" />
-            <Frame WidthRequest="170" HeightRequest="40" Padding="5">
-                <Entry WidthRequest="150" HeightRequest="40" CursorPosition="4"></Entry>
-            </Frame>
-        </HorizontalStackLayout>
-        <Button Text="Save" Margin="0,40"></Button>
-    </VerticalStackLayout>
+             Title="Add Product"
+             xmlns:model="clr-namespace:MauiApp1.Models"
+             xmlns:viewmodel="clr-namespace:MauiApp1.ViewModel"
+             x:DataType="viewmodel:AddProductViewModel">
+
+    <StackLayout>
+        <VerticalStackLayout Margin="0,70" Padding="20" Spacing="15">
+            <HorizontalStackLayout>
+                <Label Text="Name : " WidthRequest="100" VerticalOptions="Center" HorizontalOptions="Center" />
+                <Frame WidthRequest="170" HeightRequest="40" Padding="5">
+                    <Entry WidthRequest="150" HeightRequest="40" CursorPosition="4" Text="{Binding _Name}"></Entry>
+                </Frame>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Description : " WidthRequest="100" VerticalOptions="Center" HorizontalOptions="Center" />
+                <Frame WidthRequest="170" HeightRequest="40" Padding="5">
+                    <Entry WidthRequest="150" HeightRequest="40" CursorPosition="4" Text="{Binding _Description}"></Entry>
+                </Frame>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Price : " WidthRequest="100" VerticalOptions="Center" HorizontalOptions="Center" />
+                <Frame WidthRequest="170" HeightRequest="40" Padding="5">
+                    <Entry WidthRequest="150" HeightRequest="40" CursorPosition="4" Text="{Binding _Price}"></Entry>
+                </Frame>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout WidthRequest="350" HeightRequest="50" Spacing="5">
+                <Button Text="Select image" HeightRequest="40" WidthRequest="120" Command="{Binding GetFileCommand}"/>
+                <Label WidthRequest="170" VerticalOptions="Center" Text="{Binding _ImagePath}"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+        <Button Text="Save" Margin="0,10" Command="{Binding AddProductCommand}"></Button>
+    </StackLayout>
 </ContentPage>

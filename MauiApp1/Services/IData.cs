@@ -5,10 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MauiApp1.ViewModel
+namespace MauiApp1.Services
 {
-    internal interface IData
+    public interface IData
     {
         // To be defined...
+        public Task<List<Product>> GetAllProducts();
+        public Task<Boolean> AddProduct(ProductWrite p);
     }
 }

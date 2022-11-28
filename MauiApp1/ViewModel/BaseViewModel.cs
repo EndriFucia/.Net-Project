@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MauiApp1.Services;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -10,6 +11,7 @@ namespace MauiApp1.ViewModel
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
+        public IData DataStore => DependencyService.Get<IData>();
         Boolean isBussy;
         public Boolean IsBusy
         {

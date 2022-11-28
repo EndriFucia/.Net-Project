@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace MauiApp1.Models
@@ -45,13 +47,18 @@ namespace MauiApp1.Models
             set { _image = value; }
         }
 
-        public Product(int id, String name, String description, int price, string image)
+        public Product(int id, String name, String description, int price, String image)
         {
             Id = id;
             Name = name;
             Description = description;
             Price = price;
             Image = ImageSource.FromUri(new Uri(image));
+        }
+
+        new public String ToString()
+        {
+            return JsonSerializer.Serialize(this);
         }
     }
 }
