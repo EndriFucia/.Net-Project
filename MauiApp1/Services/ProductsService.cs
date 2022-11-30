@@ -55,6 +55,18 @@ namespace MauiApp1.Services
             return false;
         }
 
+        public async Task<Boolean> DeleteProduct(int id)
+        {
+            HttpResponseMessage response = await httpClient.DeleteAsync(URL + "/" + id);
+            if (response.IsSuccessStatusCode)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        //static function to not repeat code
         public static async Task<ImageData> GetFileData(PickOptions options)
         {
             ImageData imageData = new();

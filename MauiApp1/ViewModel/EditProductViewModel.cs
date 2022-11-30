@@ -28,6 +28,7 @@ namespace MauiApp1.ViewModel
         }
         public Command GetFileCommand { get; }
         public Command UpdateProductCommand { get; }
+        public Command DeleteProductCommand { get; }
 
         private String _imgName;
         public String ImageName
@@ -57,6 +58,7 @@ namespace MauiApp1.ViewModel
             pickOptions.PickerTitle = "Select an image";
             GetFileCommand = new Command(async () => await GetFile(pickOptions));
             UpdateProductCommand = new Command(async () => await UpdateProduct());
+            DeleteProductCommand = new Command(async () => await DeleteProduct());
         }
 
         public void ApplyQueryAttributes(IDictionary<string, object> query)
@@ -92,7 +94,26 @@ namespace MauiApp1.ViewModel
             }
             catch(Exception ex) 
             {
-                await Application.Current.MainPage.DisplayAlert("Products couldn`t be retrieved!", ex.Message, "OK");
+                await Application.Current.MainPage.DisplayAlert("Products couldn`t be updated!", ex.Message, "OK");
+            }
+        }
+
+        public async Task DeleteProduct()
+        {
+            try
+            {
+                if (await productsService.DeleteProduct(SelectedProduct.Id))
+                {
+                    await Application.Current.MainPage.DisplayAlert("Info :", "Product deleted sucessfully!", "OK");
+                }
+                else
+                {
+                    await Application.Current.MainPage.DisplayAlert("Info :", "Product couldn`t be deleted!", "OK");
+                }
+            }
+            catch (Exception ex)
+            {
+                await Application.Current.MainPage.DisplayAlert("Products couldn`t be deleted!", ex.Message, "OK");
             }
         }
 
