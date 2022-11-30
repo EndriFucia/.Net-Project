@@ -263,3 +263,17 @@ C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-ios
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-ios\iossimulator-x64\MauiApp1.pdb
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-ios\iossimulator-x64\MauiApp1.genruntimeconfig.cache
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-ios\iossimulator-x64\ref\MauiApp1.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.AspNetCore.Http.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.Extensions.ObjectPool.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.Net.Http.Headers.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.Win32.SystemEvents.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-ios\iossimulator-x64\Newtonsoft.Json.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-ios\iossimulator-x64\System.Drawing.Common.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0-ios\iossimulator-x64\System.IO.Pipelines.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\audi.jpg
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\bmw.jpg
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\tesla.jpg
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\tesla2.jpg

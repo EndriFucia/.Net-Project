@@ -2,6 +2,7 @@
 using MauiApp1.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Internal;
+using Microsoft.Maui.Storage;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,7 @@ namespace MauiApp1.ViewModel
     {
         private readonly ProductsService ProductService;
 
-        private PickOptions pickOptions;
+        PickOptions pickOptions;
 
         String _name;
         public String _Name { 
@@ -55,32 +56,18 @@ namespace MauiApp1.ViewModel
 
         public AddProductViewModel(ProductsService prodService)
         {
-            pickOptions= new PickOptions();
-            pickOptions.PickerTitle = "Select an image";
             ProductService = prodService;
+            pickOptions = new PickOptions();
+            pickOptions.PickerTitle = "Select an image";
             AddProductCommand = new Command(async () => await AddProduct());
             GetFileCommand = new Command(async () => await GetFile(pickOptions));
         }
 
         public async Task GetFile(PickOptions options)
         {
-            try
-            {
-                var result = await FilePicker.Default.PickAsync(options);
-                if (result != null)
-                {
-                    var stream = await result.OpenReadAsync();
-                    var ms = new MemoryStream();
-                    stream.CopyTo(ms);
-                    _File= ms.ToArray();
-                    _ImagePath = result.FileName;
-                }            
-            }
-            catch (Exception ex)
-            {
-                await Application.Current.MainPage.DisplayAlert("Info :", ex.Message, "OK");
-            }
-
+            ImageData imgData = await ProductsService.GetFileData(options);
+            _ImagePath = imgData.ImageName;
+            _File = imgData.ImageFile;
         }
         public async Task AddProduct()
         {

@@ -11,12 +11,14 @@ using Newtonsoft.Json;
 using Microsoft.AspNetCore.Http;
 using System.Net.Http.Headers;
 using Microsoft.AspNetCore.Http.Internal;
+using Microsoft.Maui.Storage;
+using System.Runtime.CompilerServices;
 
 namespace MauiApp1.Services
 {
     public class ProductsService : IData
     {
-        HttpClient httpClient;
+        public HttpClient httpClient;
         private readonly String URL = "http://10.0.2.2:5067/api/products";
         public ProductsService() 
         { 
@@ -39,6 +41,31 @@ namespace MauiApp1.Services
             }
 
             return false;
+        }
+
+        public static async Task<ImageData> GetFileData(PickOptions options)
+        {
+            ImageData imageData = new();
+            try
+            {
+                var result = await FilePicker.Default.PickAsync(options);
+                if (result != null)
+                {
+                    var stream = await result.OpenReadAsync();
+                    var ms = new MemoryStream();
+                    stream.CopyTo(ms);
+                    imageData.ImageFile = ms.ToArray();
+                    imageData.ImageName = result.FileName;
+                }
+
+                return imageData;
+            }
+            catch (Exception ex)
+            {
+                await Application.Current.MainPage.DisplayAlert("Info :", ex.Message, "OK");
+                return imageData;
+            }
+
         }
     }
 }

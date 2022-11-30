@@ -951,14 +951,6 @@ C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-and
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\Newtonsoft.Json.dll
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\Microsoft.Win32.SystemEvents.dll
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Drawing.Common.dll
-C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\mscorlib.dll
-C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
-C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Data.dll
-C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.dll
-C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Net.NetworkInformation.dll
-C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
-C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
-C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Xml.dll
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\resizetizer\r\drawable\tesla.jpg
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\resizetizer\r\drawable\tesla2.jpg
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\Microsoft.AspNetCore.Http.Abstractions.dll
@@ -968,3 +960,11 @@ C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-and
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\Microsoft.Extensions.ObjectPool.dll
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\Microsoft.Net.Http.Headers.dll
 C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.IO.Pipelines.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\mscorlib.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Data.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Net.NetworkInformation.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0-android\android\assets\System.Xml.dll

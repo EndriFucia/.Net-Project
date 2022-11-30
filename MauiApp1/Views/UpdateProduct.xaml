@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.UpdateProduct"
+             Title="UpdateProduct">
+    <VerticalStackLayout>
+        <VerticalStackLayout Margin="30,20,0,0" Spacing="10">
+            <Frame CornerRadius="10" Padding="0" HeightRequest="200" WidthRequest="200">
+                <Image Source="{Binding SelectedProduct.ImageSource}" Aspect="AspectFill"></Image>
+            </Frame>
+            <HorizontalStackLayout>
+                <Label Text="Name : " WidthRequest="100" VerticalOptions="Center" HorizontalOptions="Center" />
+                <Frame WidthRequest="170" HeightRequest="40" Padding="5">
+                    <Entry WidthRequest="150" HeightRequest="40" CursorPosition="4" Text="{Binding SelectedProduct.Name}"></Entry>
+                </Frame>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Description : " WidthRequest="100" VerticalOptions="Center" HorizontalOptions="Center" />
+                <Frame WidthRequest="170" HeightRequest="40" Padding="5">
+                    <Entry WidthRequest="150" HeightRequest="40" CursorPosition="4" Text="{Binding SelectedProduct.Description}"></Entry>
+                </Frame>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Price : " WidthRequest="100" VerticalOptions="Center" HorizontalOptions="Center" />
+                <Frame WidthRequest="170" HeightRequest="40" Padding="5">
+                    <Entry WidthRequest="150" HeightRequest="40" CursorPosition="4" Text="{Binding SelectedProduct.Price}"></Entry>
+                </Frame>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+        <HorizontalStackLayout Margin="10,10,0,20" WidthRequest="350" HeightRequest="50" Spacing="10">
+            <Button Text="Select" HeightRequest="40" WidthRequest="70" Command="{Binding GetFileCommand}"/>
+            <Label WidthRequest="230" VerticalOptions="Center" Text="{Binding ImageName}"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Button Text="Update" WidthRequest="100" Margin="75,0,10,0"></Button>
+            <Button Text="Delete" WidthRequest="100" Margin="10,0,10,0"></Button>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

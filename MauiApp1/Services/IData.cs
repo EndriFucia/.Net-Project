@@ -7,6 +7,12 @@ using System.Threading.Tasks;
 
 namespace MauiApp1.Services
 {
+    public struct ImageData
+    {
+        public String ImageName { get; set; }
+        public byte[] ImageFile { get; set; }
+
+    }
     public interface IData
     {
         // To be defined...

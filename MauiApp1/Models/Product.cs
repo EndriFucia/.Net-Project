@@ -40,11 +40,18 @@ namespace MauiApp1.Models
             set { _price = value; }
         }
 
-        private ImageSource _image;
-        public ImageSource Image
+        private string _imageName;
+        public string ImageName
         {
-            get { return _image; }
-            set { _image = value; }
+            get { return _imageName; }
+            set { _imageName = value; }
+        }
+
+        private ImageSource _imageSource;
+        public ImageSource ImageSource
+        {
+            get { return _imageSource; }
+            set { _imageSource = value; }
         }
 
         public Product(int id, String name, String description, int price, String image)
@@ -53,7 +60,8 @@ namespace MauiApp1.Models
             Name = name;
             Description = description;
             Price = price;
-            Image = ImageSource.FromUri(new Uri(image));
+            ImageName = image.Split("http://10.0.2.2:5067/Images/")[1];
+            ImageSource = ImageSource.FromUri(new Uri(image));
         }
 
         new public String ToString()

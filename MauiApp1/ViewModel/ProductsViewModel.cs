@@ -12,16 +12,20 @@ namespace MauiApp1.ViewModel
     public class ProductsViewModel: BaseViewModel
     {
         ProductsService productService;
+
         AddProductViewModel apvm;
+        public Product selectedProduct { get; set; }
         public ObservableCollection<Product> productList { get; } = new();
         public Command GetProductsCommand { get; }
         public Command AddProductCommand { get; }
+        public Command UpdateProductCommand { get; }
         public ProductsViewModel(ProductsService service)
         {
             apvm = new AddProductViewModel(service);
             productService = service;
             GetProductsCommand = new Command(async () => await GetAllProducts());
-            AddProductCommand = new Command(async () => await AddProduct());
+            AddProductCommand = new Command(async () => await GoToAddProduct());
+            UpdateProductCommand = new Command(async () => await GoToUpateProduct());
             GetAllProducts();
         }
 
@@ -49,10 +53,19 @@ namespace MauiApp1.ViewModel
             }
         }
 
-        public async Task AddProduct()
+        public async Task GoToAddProduct()
         {
-            //await Shell.Current.GoToAsync(nameof(AddProduct));
             await App.Current.MainPage.Navigation.PushAsync(new AddProduct(apvm));
+        }
+
+        public async Task GoToUpateProduct()
+        {
+            //await Application.Current.MainPage.DisplayAlert("INFO : ", selectedProduct.Id.ToString(), "OK");
+            var navParam = new Dictionary<String, object>
+            {
+                { "Product" , selectedProduct}
+            };
+            await Shell.Current.GoToAsync($"UpdateProduct", navParam);
         }
     }
 }
