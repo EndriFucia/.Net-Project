@@ -6,6 +6,7 @@ using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Net;
 
 namespace MauiApp1.ViewModel
 {
@@ -26,6 +27,7 @@ namespace MauiApp1.ViewModel
             }
         }
         public Command GetFileCommand { get; }
+        public Command UpdateProductCommand { get; }
 
         private String _imgName;
         public String ImageName
@@ -50,15 +52,48 @@ namespace MauiApp1.ViewModel
 
         public EditProductViewModel()
         {
+            productsService = new ProductsService();
             pickOptions = new PickOptions();
             pickOptions.PickerTitle = "Select an image";
             GetFileCommand = new Command(async () => await GetFile(pickOptions));
+            UpdateProductCommand = new Command(async () => await UpdateProduct());
         }
 
         public void ApplyQueryAttributes(IDictionary<string, object> query)
         {
             SelectedProduct = query["Product"] as Product;
-            ImageName = SelectedProduct.ImageName;
+            ImageName = SelectedProduct.ImageName.Split("http://10.0.2.2:5067/Images/")[1];
+        }
+
+        public async Task UpdateProduct()
+        {
+            try
+            {
+                //check if image is still the same
+                if(ImageName == SelectedProduct.ImageName.Split("http://10.0.2.2:5067/Images/")[1])
+                {
+                    WebClient wc = new WebClient();
+                    File = wc.DownloadData(new Uri(SelectedProduct.ImageName));
+                }
+
+                //Update the 
+                if (File != null)
+                {
+                    var prod = new ProductWrite(SelectedProduct.Name, SelectedProduct.Description, SelectedProduct.Price, ImageName, File);
+                    if (await productsService.UpdateProduct(prod, SelectedProduct.Id))
+                    {
+                        await Application.Current.MainPage.DisplayAlert("Info :", "Product updated sucessfully!", "OK");
+                    }
+                    else
+                    {
+                        await Application.Current.MainPage.DisplayAlert("Info :", "Product couldn`t be updated!", "OK");
+                    }
+                }
+            }
+            catch(Exception ex) 
+            {
+                await Application.Current.MainPage.DisplayAlert("Products couldn`t be retrieved!", ex.Message, "OK");
+            }
         }
 
         public async Task GetFile(PickOptions options)

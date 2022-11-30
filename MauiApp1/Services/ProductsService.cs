@@ -43,6 +43,18 @@ namespace MauiApp1.Services
             return false;
         }
 
+        public async Task<Boolean> UpdateProduct(ProductWrite p, int id)
+        {
+            HttpContent content = new StringContent(p.ToString(), Encoding.UTF8, "application/json");
+            HttpResponseMessage response = await httpClient.PutAsync(URL + "/" + id, content);
+            if (response.IsSuccessStatusCode)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
         public static async Task<ImageData> GetFileData(PickOptions options)
         {
             ImageData imageData = new();

@@ -45,7 +45,7 @@ namespace MauiApp1.Models
             set { _file = value; }
         }
 
-        public ProductWrite(String name, String description, int price, String image, byte[] file)
+        public ProductWrite(String name, String description, double price, String image, byte[] file)
         {
             Name = name;
             Description = description;

@@ -60,7 +60,7 @@ namespace MauiApp1.Models
             Name = name;
             Description = description;
             Price = price;
-            ImageName = image.Split("http://10.0.2.2:5067/Images/")[1];
+            ImageName = image;
             ImageSource = ImageSource.FromUri(new Uri(image));
         }
 
