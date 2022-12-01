@@ -17,9 +17,9 @@ namespace MauiApp1.ViewModel
     {
         private readonly ProductsService ProductService;
 
-        PickOptions pickOptions;
+        private PickOptions pickOptions;
 
-        String _name;
+        private String _name;
         public String _Name { 
             get => _name;
             set
@@ -30,7 +30,7 @@ namespace MauiApp1.ViewModel
         public String _Description { get; set; } = String.Empty;
         public int _Price { get; set; } = 0;
 
-        String _imgPath;
+        private String _imgPath;
         public String _ImagePath 
         { 
             get => _imgPath;
@@ -74,7 +74,7 @@ namespace MauiApp1.ViewModel
             try
             {
                 var product = new ProductWrite(_Name, _Description, _Price, _ImagePath, _File);
-                if (product != null)
+                if (product != null )
                 {
                     if (await ProductService.AddProduct(product))
                     {

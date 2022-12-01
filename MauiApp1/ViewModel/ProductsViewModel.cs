@@ -60,7 +60,6 @@ namespace MauiApp1.ViewModel
 
         public async Task GoToUpateProduct()
         {
-            //await Application.Current.MainPage.DisplayAlert("INFO : ", selectedProduct.Id.ToString(), "OK");
             var navParam = new Dictionary<String, object>
             {
                 { "Product" , selectedProduct}

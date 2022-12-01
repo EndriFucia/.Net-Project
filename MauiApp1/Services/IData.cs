@@ -18,5 +18,7 @@ namespace MauiApp1.Services
         // To be defined...
         public Task<List<Product>> GetAllProducts();
         public Task<Boolean> AddProduct(ProductWrite p);
+        public Task<Boolean> UpdateProduct(ProductWrite p, int id);
+        public Task<Boolean> DeleteProduct(int id);
     }
 }
