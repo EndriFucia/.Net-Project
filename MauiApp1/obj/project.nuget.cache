@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9THObyDKzsYHQkV1Cde7p5ppaWIuYSdDgQpWEDYg14/IzQ0t4Ag5TnPlbdrILzWu3DnnmwsWToSfGtWfujqCmg==",
+  "dgSpecHash": "Df4HxHF0gGik8rIgfOzIr80urN/jth00s9kW/nctutd0zxayQ3bIHG060jV0VnqB2oVPyOyHmKV8PfXkdKuAtg==",
   "success": true,
   "projectFilePath": "C:\\Users\\endri\\Desktop\\Thomas More\\C#\\.Net-Project\\MauiApp1\\MauiApp1.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\endri\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\endri\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
@@ -117,6 +118,12 @@
     "C:\\Users\\endri\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.6.20.1\\xamarin.kotlin.stdlib.jdk8.1.6.20.1.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.0.1\\xamarin.kotlinx.coroutines.android.1.6.0.1.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.0.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.0.1.nupkg.sha512",
+    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.controls.runtime.any\\6.0.547\\microsoft.maui.controls.runtime.any.6.0.547.nupkg.sha512",
+    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.essentials.runtime.any\\6.0.547\\microsoft.maui.essentials.runtime.any.6.0.547.nupkg.sha512",
+    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.core.runtime.any\\6.0.547\\microsoft.maui.core.runtime.any.6.0.547.nupkg.sha512",
+    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.essentials.ref.any\\6.0.547\\microsoft.maui.essentials.ref.any.6.0.547.nupkg.sha512",
+    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.core.ref.any\\6.0.547\\microsoft.maui.core.ref.any.6.0.547.nupkg.sha512",
+    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.controls.ref.any\\6.0.547\\microsoft.maui.controls.ref.any.6.0.547.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.essentials.ref.android\\6.0.547\\microsoft.maui.essentials.ref.android.6.0.547.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\microsoft.android.runtime.31.android-x86\\32.0.476\\microsoft.android.runtime.31.android-x86.32.0.476.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.controls.ref.android\\6.0.547\\microsoft.maui.controls.ref.android.6.0.547.nupkg.sha512",

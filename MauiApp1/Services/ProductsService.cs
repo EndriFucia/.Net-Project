@@ -20,6 +20,8 @@ namespace MauiApp1.Services
     {
         public HttpClient httpClient;
         private readonly String URL = "http://10.0.2.2:5067/api/products";
+        // use this url when running tests !
+        //private readonly String URL = "http://localhost:5067/api/products"; 
         public ProductsService() 
         { 
             httpClient = new HttpClient();
@@ -89,7 +91,6 @@ namespace MauiApp1.Services
                 await Application.Current.MainPage.DisplayAlert("Info :", ex.Message, "OK");
                 return imageData;
             }
-
         }
     }
 }

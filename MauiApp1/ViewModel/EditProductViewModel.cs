@@ -74,7 +74,7 @@ namespace MauiApp1.ViewModel
                 //check if image is still the same
                 if(ImageName == SelectedProduct.ImageName.Split("http://10.0.2.2:5067/Images/")[1])
                 {
-                    WebClient wc = new WebClient();
+                    var wc = new WebClient();
                     File = wc.DownloadData(new Uri(SelectedProduct.ImageName));
                 }
 

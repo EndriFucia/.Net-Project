@@ -15,7 +15,6 @@ namespace MauiApp1.Services
     }
     public interface IData
     {
-        // To be defined...
         public Task<List<Product>> GetAllProducts();
         public Task<Boolean> AddProduct(ProductWrite p);
         public Task<Boolean> UpdateProduct(ProductWrite p, int id);

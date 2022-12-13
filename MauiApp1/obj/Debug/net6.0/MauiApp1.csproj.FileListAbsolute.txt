@@ -1,0 +1,13 @@
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0\MauiApp1.deps.json
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0\MauiApp1.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\bin\Debug\net6.0\MauiApp1.pdb
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0\MauiApp1.csproj.AssemblyReference.cache
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0\MauiApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0\MauiApp1.AssemblyInfoInputs.cache
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0\MauiApp1.AssemblyInfo.cs
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0\MauiApp1.csproj.CoreCompileInputs.cache
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0\XamlC.stamp
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0\MauiApp1.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0\refint\MauiApp1.dll
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0\MauiApp1.pdb
+C:\Users\endri\Desktop\Thomas More\C#\.Net-Project\MauiApp1\obj\Debug\net6.0\ref\MauiApp1.dll
