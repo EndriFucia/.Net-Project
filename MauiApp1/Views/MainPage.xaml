@@ -41,7 +41,7 @@
         </RefreshView>
         <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="50" Spacing="5" BackgroundColor="White">
             <Button Text="Create" Command="{Binding AddProductCommand}" HeightRequest="40" WidthRequest="80"></Button>
-            <Button Text="Refresh" Command="{Binding GetProductsCommand}" HeightRequest="40" WidthRequest="80"></Button>
+            <!--<Button Text="Refresh" Command="{Binding GetProductsCommand}" HeightRequest="40" WidthRequest="80"></Button>-->
         </HorizontalStackLayout>
     </StackLayout>
 </ContentPage>

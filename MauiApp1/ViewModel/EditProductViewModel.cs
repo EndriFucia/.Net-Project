@@ -96,6 +96,7 @@ namespace MauiApp1.ViewModel
             {
                 await Application.Current.MainPage.DisplayAlert("Products couldn`t be updated!", ex.Message, "OK");
             }
+            await Shell.Current.GoToAsync("..");
         }
 
         public async Task DeleteProduct()
@@ -115,6 +116,7 @@ namespace MauiApp1.ViewModel
             {
                 await Application.Current.MainPage.DisplayAlert("Products couldn`t be deleted!", ex.Message, "OK");
             }
+            await Shell.Current.GoToAsync("..");
         }
 
         public async Task GetFile(PickOptions options)

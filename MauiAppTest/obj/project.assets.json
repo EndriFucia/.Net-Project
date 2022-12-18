@@ -246,13 +246,13 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.548": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.548": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -2488,25 +2488,25 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Maui.Dependencies/6.0.547": {
-      "sha512": "3RTnfV1t3h7kN2eGvGnQNQgWbU+m0Ne80omyNaYrUyzlur7HOw3/D85jCxhPkRHNaah2dWsbiZnxoTEU3uPdoA==",
+    "Microsoft.Maui.Dependencies/6.0.548": {
+      "sha512": "vhrH4gkoK0fAj2LIMaqWNSUZIP4iPfp+bNRfjX7wqibZkepdmmuHail4rOcz5p4ThnyWYNJUzsnnRYF+znUIUQ==",
       "type": "package",
-      "path": "microsoft.maui.dependencies/6.0.547",
+      "path": "microsoft.maui.dependencies/6.0.548",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "microsoft.maui.dependencies.6.0.547.nupkg.sha512",
+        "microsoft.maui.dependencies.6.0.548.nupkg.sha512",
         "microsoft.maui.dependencies.nuspec"
       ]
     },
-    "Microsoft.Maui.Extensions/6.0.547": {
-      "sha512": "vgQnD1d6hqg6M4+nV9+EKlgYUIlPhifsE3EgNFvYQ4ms1f2dRDQSrhQdlaQpdjvves32SHS4VeBbBjFTsxc1Ag==",
+    "Microsoft.Maui.Extensions/6.0.548": {
+      "sha512": "m9X2QO4Exp07Y+R/S+svAnv955nYG2eFwbwKdL2WH8wn/YpocYdx6gJ8vm+JGZ/Nm57h8XA3yw4KtjuANjCdLQ==",
       "type": "package",
-      "path": "microsoft.maui.extensions/6.0.547",
+      "path": "microsoft.maui.extensions/6.0.548",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "microsoft.maui.extensions.6.0.547.nupkg.sha512",
+        "microsoft.maui.extensions.6.0.548.nupkg.sha512",
         "microsoft.maui.extensions.nuspec"
       ]
     },
@@ -6742,8 +6742,8 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "MauiApp1 >= 1.0.0",
-      "Microsoft.Maui.Dependencies >= 6.0.547",
-      "Microsoft.Maui.Extensions >= 6.0.547",
+      "Microsoft.Maui.Dependencies >= 6.0.548",
+      "Microsoft.Maui.Extensions >= 6.0.548",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.2",
@@ -6801,12 +6801,12 @@
         "dependencies": {
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
-            "version": "[6.0.547, )",
+            "version": "[6.0.548, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Extensions": {
             "target": "Package",
-            "version": "[6.0.547, )",
+            "version": "[6.0.548, )",
             "autoReferenced": true
           },
           "Microsoft.NET.Test.Sdk": {
@@ -6844,27 +6844,27 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.Maui.Controls.Ref.any",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.548, 6.0.548]"
           },
           {
             "name": "Microsoft.Maui.Controls.Runtime.any",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.548, 6.0.548]"
           },
           {
             "name": "Microsoft.Maui.Core.Ref.any",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.548, 6.0.548]"
           },
           {
             "name": "Microsoft.Maui.Core.Runtime.any",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.548, 6.0.548]"
           },
           {
             "name": "Microsoft.Maui.Essentials.Ref.any",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.548, 6.0.548]"
           },
           {
             "name": "Microsoft.Maui.Essentials.Runtime.any",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.548, 6.0.548]"
           }
         ],
         "frameworkReferences": {
@@ -6881,7 +6881,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

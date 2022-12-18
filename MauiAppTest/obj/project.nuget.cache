@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0gCjOIAaQ7pnLk1ub7SSfTr7i8N3WsYVNktmB/IERbre8vkfPgix1nv5KusJtLB0VkDUZM5BIboYIqGqKQiiEg==",
+  "dgSpecHash": "U8VREFohwhO/1Xo406VGl1scVr4SSHftZ0INLvEsDshDhK7qIg9CqYN1AXZwp+vAAVyoj2Qsn5KDD3OfIhzwPg==",
   "success": true,
   "projectFilePath": "C:\\Users\\endri\\Desktop\\Thomas More\\C#\\.Net-Project\\MauiAppTest\\MauiAppTest.csproj",
   "expectedPackageFiles": [
@@ -19,8 +19,8 @@
     "C:\\Users\\endri\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\microsoft.extensions.objectpool.2.2.0.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.dependencies\\6.0.547\\microsoft.maui.dependencies.6.0.547.nupkg.sha512",
-    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.extensions\\6.0.547\\microsoft.maui.extensions.6.0.547.nupkg.sha512",
+    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.dependencies\\6.0.548\\microsoft.maui.dependencies.6.0.548.nupkg.sha512",
+    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.extensions\\6.0.548\\microsoft.maui.extensions.6.0.548.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.graphics\\6.0.501\\microsoft.maui.graphics.6.0.501.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\microsoft.net.test.sdk\\17.3.2\\microsoft.net.test.sdk.17.3.2.nupkg.sha512",
@@ -116,12 +116,12 @@
     "C:\\Users\\endri\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
     "C:\\Users\\endri\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512",
-    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.controls.runtime.any\\6.0.547\\microsoft.maui.controls.runtime.any.6.0.547.nupkg.sha512",
-    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.essentials.runtime.any\\6.0.547\\microsoft.maui.essentials.runtime.any.6.0.547.nupkg.sha512",
-    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.core.runtime.any\\6.0.547\\microsoft.maui.core.runtime.any.6.0.547.nupkg.sha512",
-    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.essentials.ref.any\\6.0.547\\microsoft.maui.essentials.ref.any.6.0.547.nupkg.sha512",
-    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.core.ref.any\\6.0.547\\microsoft.maui.core.ref.any.6.0.547.nupkg.sha512",
-    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.controls.ref.any\\6.0.547\\microsoft.maui.controls.ref.any.6.0.547.nupkg.sha512"
+    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.controls.runtime.any\\6.0.548\\microsoft.maui.controls.runtime.any.6.0.548.nupkg.sha512",
+    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.essentials.runtime.any\\6.0.548\\microsoft.maui.essentials.runtime.any.6.0.548.nupkg.sha512",
+    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.core.runtime.any\\6.0.548\\microsoft.maui.core.runtime.any.6.0.548.nupkg.sha512",
+    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.essentials.ref.any\\6.0.548\\microsoft.maui.essentials.ref.any.6.0.548.nupkg.sha512",
+    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.core.ref.any\\6.0.548\\microsoft.maui.core.ref.any.6.0.548.nupkg.sha512",
+    "C:\\Users\\endri\\.nuget\\packages\\microsoft.maui.controls.ref.any\\6.0.548\\microsoft.maui.controls.ref.any.6.0.548.nupkg.sha512"
   ],
   "logs": []
 }

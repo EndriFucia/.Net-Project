@@ -15,7 +15,7 @@ namespace MauiApp1.ViewModel
 
         AddProductViewModel apvm;
         public Product selectedProduct { get; set; }
-        public ObservableCollection<Product> productList { get; } = new();
+        public ObservableCollection<Product> productList { get; set;} = new();
         public Command GetProductsCommand { get; }
         public Command AddProductCommand { get; }
         public Command UpdateProductCommand { get; }
@@ -34,6 +34,7 @@ namespace MauiApp1.ViewModel
             try
             {
                 IsBusy = true;
+                productList.Clear();
 
                 List<Product> products = await productService.GetAllProducts();
                 if (products.Count > 0)
